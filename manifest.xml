@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manifest>
+  <ID>Liquid_Filtration_Machine</ID>
+  <Name>Liquid Filtration Machine</Name>
+  <Author>Diff</Author>
+  <ModVersion>0.6</ModVersion>
+  <Description>A machine that filtrates any amount of liquid up to the container's limit and filter's durability.</Description>
+  <GameVersions>
+    <Version>0.46D</Version>
+  </GameVersions>
+  <Prerequisites />
+  <!-- Every DLL the game must load, relative to this folder. Nothing else in the folder is loaded. -->
+  <Assemblies>
+    <Assembly>Liquid_Filtration_Machine.dll</Assembly>
+  </Assemblies>
+  <!-- What your code does beyond the game's API: files, network, process, dynamic-code, native, reflection-external.
+       Most mods need none. The game scans your DLL when a player activates the mod; an undeclared capability
+       refuses the activation. Check with the console command: mod-scan Liquid_Filtration_Machine   (see ModdingGuide.md) -->
+  <Capabilities />
+</Manifest>
